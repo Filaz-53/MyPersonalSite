@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contatti - MyPersonalSite</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="intestazione">
+    <div class="contenitore">
+        <a class="logo" href="index.html">MyPersonal<span>Site</span></a>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Chi sono</a></li>
+                <li><a class="attivo" href="contacts.html">Contatti</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main class="contenitore">
+    <section>
+        <p class="sopratitolo">02 / CONTATTI</p>
+        <h1 class="titolo-pagina">Mettiamoci in <span>contatto</span>.</h1>
+        <p class="descrizione-pagina">Un’idea, una domanda o un progetto? Scrivimi qui.</p>
+    </section>
+
+    <div class="griglia-contatti">
+        <section class="info-contatti">
+            <p class="sopratitolo">PARLIAMONE</p>
+            <h2>Ogni conversazione<br>inizia con un ciao.</h2>
+            <p class="introduzione">Uno spazio per condividere un’idea,<br>fare una domanda o parlare di un progetto.</p>
+            <p class="nome">Federico Filazzola</p>
+            <p class="sotto-nome">MyPersonalSite · Uno spazio per nuove idee.</p>
+            <p class="avviso-titolo">PROGETTO UNIVERSITARIO</p>
+            <p class="avviso-testo">Il modulo è dimostrativo:<br>non vengono inviati messaggi reali.</p>
+        </section>
+
+        <section class="scheda scheda-form">
+            <h2>Scrivimi un messaggio</h2>
+            <p class="nota">Nome, email e messaggio sono obbligatori.</p>
+            <form action="#" method="post">
+                <div class="riga-form">
+                    <div>
+                        <label for="nome">Nome *</label>
+                        <input type="text" id="nome" name="nome" placeholder="Il tuo nome" required>
+                    </div>
+                    <div>
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" placeholder="nome@esempio.it" required>
+                    </div>
+                </div>
+                <label for="messaggio">Messaggio *</label>
+                <textarea id="messaggio" name="messaggio" placeholder="Raccontami la tua idea o scrivimi una domanda…" required></textarea>
+                <div class="fondo-form">
+                    <p>Demo universitaria · nessun invio reale.</p>
+                    <button class="bottone" type="submit">Invia ↗</button>
+                </div>
+            </form>
+        </section>
+    </div>
+</main>
+
+<footer class="piede">
+    <div class="contenitore">
+        <span>
+            <p>Federico Filazzola · MyPersonalSite</p>
+            <p>Uno spazio personale, in continua evoluzione.</p>
+        </span>
+        <span>
+            <p><small>Alcune immagini nel sito sono state generate o alterate con AI per una scelta stilistica dello sviluppatore</small></p>
+            <p><small>Nessuna Intelligenza artificiale è stata usata per lo sviluppo del sito web.</small></p>
+        </span>
+    </div>
+</footer>
+
+</body>
+</html>
